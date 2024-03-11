@@ -9,7 +9,7 @@ import VectorSource from 'ol/source/Vector.js';
 import {Circle as CircleStyle, Fill, Stroke, Style} from 'ol/style.js';
 
 //http://address/?bbox?polygon1?polygon99?$srv:srv$srv:srv
-
+document.body.style.overflow = 'hidden';
 const extent = document.querySelector('.coords')
 const currentUrl = window.location.href.toString().split('?').splice(1)
 console.log(currentUrl)
